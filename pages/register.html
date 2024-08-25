@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registeration</title>
+    <!-- register.css -->
+    <link rel="stylesheet" href="../css/register.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="container d-flex">
+        <div class="flex">
+          <div class="register">
+            <table 
+            width="360px">
+              <tbody>
+                <!-- head -->
+                <tr class="head" height="50px">
+                  <td colspan="2">
+                    <h1>Create your Account</h1>
+                    <p>Unlock all Features!</p>
+                  </td>
+                </tr>
+                <!-- username -->
+                <tr class="username" height="50px">
+                    <td colspan="2">
+                        <div class="input-box">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" 
+                            name="username"
+                            placeholder="Username"
+                            autofocus="autofocus">
+                        </div>
+                    </td>
+                  </tr>
+                <!-- email -->
+                <tr class="email" height="50px">
+                  <td colspan="2">
+                      <div class="input-box">
+                          <i class="fa-solid fa-envelope"></i>
+                          <input type="text" 
+                          name="Email"
+                          placeholder="Email"
+                          autofocus="autofocus">
+                      </div>
+                  </td>
+                </tr>
+                <!-- password -->
+                <tr class="password" height="50px">
+                  <td colspan="2">
+                      <div class="input-box">
+                          <i class="fa-solid fa-lock"></i>
+                          <input type="password" 
+                          name="Password"
+                          placeholder="Password"
+                          autofocus="autofocus">
+                      </div>
+                  </td>
+                </tr>
+                <!-- confirm pass -->
+                <tr class="confirm" height="50px">
+                <td colspan="2">
+                    <div class="input-box">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" 
+                        name="confirm"
+                        placeholder="Confirm Password"
+                        autofocus="autofocus">
+                    </div>
+                </td>
+                </tr>
+                <!-- accept -->
+                <tr class="accept" height="40px" valign="top">
+                  <td align="left">
+                      <div class="check-box">
+                          <input type="checkbox" id="checkbox">
+                          <label for="checkbox">Accept</label>
+                          <a href="#">terms and conditions</a>
+                      </div>
+                  </td>
+                </tr>
+                <!-- register btn -->
+                <tr class="register-btn" align="center" height="50px">
+                  <td colspan="2">
+                      <button>
+                          <a href="../pages/Homepage.html">Sign up</a>
+                      </button>
+                  </td>
+                </tr>
+                <!-- don't have an account -->
+                <tr class="no-acc" align="center" height="50px">
+                  <td colspan="2">
+                      <div class="text">
+                        <p>You have an account?</p>
+                        <a href="../pages/login.html">Login now</a>
+                      </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../asset/image/Prototyping process-pana.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

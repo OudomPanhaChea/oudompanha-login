@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      to right,
+      #f0f4fd 0%,
+      #f0f4fd 50%,
+      #7881dc 50%,
+      #7881dc 100%
+    );
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/* OTP */
+.banner {
+    width: 100%;
+    height: 730px;
+    display: flex;
+    align-items: center;
+}
+.banner .d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.banner .flex {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .enter-otp {
+    width: 360px;
+    height: auto;
+}
+/* head */
+.banner .enter-otp table .head {
+    width: 360px;
+    height: 100px;
+}
+.banner .enter-otp table .head td h1 {
+    font-size: 31px;
+    font-weight: bold;
+    color: #000814;
+}
+.banner .enter-otp table .head td p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(128, 128, 128, 0.685);
+}
+.banner .enter-otp table .head td p span {
+    color: #7881dc;
+}
+
+/* otp */
+.banner .enter-otp table .otp .boxes .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .enter-otp table .otp .boxes .row .col {
+    width: 50px;
+    height: 50px;
+    border: #7881dc 1px solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.11);
+}
+.banner .enter-otp table .otp .boxes .row .col input {
+    width: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* submit */
+.banner .enter-otp table .submit-btn button {
+    background-color: #7881dc;
+    width: 360px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out all;
+}
+.banner .enter-otp table .submit-btn button:hover {
+    background-color: #7880dcc1;
+    scale: 1.03;
+}
+.banner .enter-otp table .submit-btn button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#f0f4fd;
+    padding: 16px 157px;
+}
+
+/* resent otp */
+.banner .enter-otp .resent a {
+    text-decoration: none;
+    color: #7881dc;
+    font-size: 14px;
+    font-weight: 500;
+}
+.banner .enter-otp .resent a:hover {
+    text-decoration: underline;
+}
+
+/* side image */
+.banner .image img {
+    width: 600px;
+    height: 600px;
+}

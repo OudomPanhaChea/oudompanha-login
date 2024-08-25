@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- login.css -->
+    <link rel="stylesheet" href="../css/login.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="banner">
+      <div class="container d-flex">
+        <div class="flex">
+          <div class="login">
+            <table 
+            width="360px">
+              <tbody>
+                <!-- head -->
+                <tr class="head" height="50px">
+                  <td colspan="2">
+                    <h1>Login to your Account</h1>
+                    <p>Welcome back! Select method to login:</p>
+                  </td>
+                </tr>
+                <!-- methods -->
+                <tr class="methods" height="50px">
+                  <td align="left">
+                      <button>
+                          <a href="#">
+                              <img src="../asset/image/google.png" alt="">
+                              <p>Google</p>
+                          </a>
+                      </button>
+                  </td>
+                  <td align="right">
+                      <button>
+                          <a href="#">
+                              <img src="../asset/image/facebook.png" alt="">
+                              <p>Facebook</p>
+                          </a>
+                      </button>
+                  </td>
+                </tr>
+                <!-- or -->
+                <tr class="or" height="50px">
+                  <td colspan="2" align="center">
+                      <p>or continue with email</p>
+                  </td>
+                </tr>
+                <!-- email -->
+                <tr class="email" height="50px">
+                  <td colspan="2">
+                      <div class="input-box">
+                          <i class="fa-solid fa-envelope"></i>
+                          <input type="text" 
+                          name="Email"
+                          placeholder="Email"
+                          autofocus="autofocus">
+                      </div>
+                  </td>
+                </tr>
+                <!-- password -->
+                <tr class="password" height="50px">
+                  <td colspan="2">
+                      <div class="input-box">
+                          <i class="fa-solid fa-lock"></i>
+                          <input type="password" 
+                          name="Password"
+                          placeholder="Password"
+                          autofocus="autofocus">
+                      </div>
+                  </td>
+                </tr>
+                <!-- remember -->
+                <tr class="remember" height="40px" valign="top">
+                  <td align="left">
+                      <div class="check-box">
+                          <input type="checkbox" id="checkbox">
+                          <label for="checkbox">Remember me</label>
+                      </div>
+                  </td>
+                  <td align="right">
+                      <a href="../pages/forgotpass.html">Forgot Password?</a>
+                  </td>
+                </tr>
+                <!-- login btn -->
+                <tr class="login-btn" align="center" height="50px">
+                  <td colspan="2">
+                      <button>
+                          <a href="../pages/Homepage.html">Log in</a>
+                      </button>
+                  </td>
+                </tr>
+                <!-- don't have an account -->
+                <tr class="no-acc" align="center" height="50px">
+                  <td colspan="2">
+                      <div class="text">
+                        <p>Don't have an account?</p>
+                        <a href="../pages/register.html">Create an account</a>
+                      </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../asset/image/Reset password-rafiki.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
